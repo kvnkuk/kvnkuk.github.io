@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../../coming_soon/img/photo-1421809313281-48f03fa45e9f.jpg) center center no-repeat fixed; 
+	-webkit-background-size: cover;
+	font-family: b-'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0 auto;
+	color: #ccc;
+}
+
+h1, aside h2, h3 {
+	font-family: 'Teko', sans-serif;
+	color: white;
+}
+
+header {
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+	margin-bottom: 190px;
+}
+
+img.home {
+	float: left;
+}
+
+div.menu {
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	float: right;
+}
+
+.icon_bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 4px;
+	margin: 0 auto 4px;
+}
+
+.icon_bar:first-child {
+	margin-top: 25px;
+}
+
+div.modal {
+	display:none;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+}
+
+main {
+	margin: 0 auto;
+	width: 60%;
+	text-align: left;
+	margin-bottom: 60px;
+	float: left;
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 120px;
+	font-style: light;
+	letter-spacing: 15px;
+}
+
+h2 {
+	font-size: 26px;
+	margin-bottom: 30px;
+	line-height: 29px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+aside {
+	margin: 0 auto;
+	margin-bottom: 145px;
+
+}
+
+aside p {
+	font-size: 1em;
+	margin-bottom: 30px;	
+}
+
+.twitter:before {
+	display: inline-block;
+	content: '\f099';
+	color: white;
+	font-family: "FontAwesome";
+}
+
+input {
+	width: 350px;
+	height: 50px;
+	font-family:'Titillium Web', sans-serif;
+	font-size: 18px;
+	float: left;
+	border: #ccc;
+	padding: 18px;
+}
+
+button.submit {
+	height:50px;
+	width: 120px;
+	background-color: #ff3333;
+	color:white;
+	border: none;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
